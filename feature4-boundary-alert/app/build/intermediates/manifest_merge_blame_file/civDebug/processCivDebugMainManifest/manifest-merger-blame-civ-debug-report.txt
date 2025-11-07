@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atakmap.android.feature4boundaryalert.plugin"
+4    android:versionCode="1"
+5    android:versionName="0.1 () - [5.4.0]" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:7:5-66
+12-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:8:5-78
+13-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:9:5-76
+14-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:9:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+15-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:10:5-87
+15-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:10:22-84
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:11:5-77
+16-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:11:22-74
+17    <!-- If your foreground service accesses location on newer Android versions, also add: -->
+18    <!-- <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/> -->
+19    <application
+19-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:16:5-57:19
+20        android:allowBackup="false"
+20-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:17:9-36
+21        android:debuggable="true"
+22        android:description="@string/app_desc"
+22-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:20:9-47
+23        android:extractNativeLibs="true"
+23-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:21:9-41
+24        android:icon="@drawable/ic_launcher"
+24-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:18:9-45
+25        android:label="@string/app_name"
+25-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:19:9-41
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:22:9-40
+28
+29        <!-- Tells ATAK which app API this plugin targets -->
+30        <meta-data
+31            android:name="plugin-api"
+31-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:25:20-45
+32            android:value="com.atakmap.app@5.4.0.CIV" />
+32-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:25:46-79
+33        <meta-data
+33-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:26:9-80
+34            android:name="app_desc"
+34-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:26:20-43
+35            android:value="@string/app_desc" />
+35-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:26:46-78
+36
+37        <!-- REQUIRED: ATAK plugin discovery stub -->
+38        <activity
+38-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:29:9-36:20
+39            android:name="com.atakmap.app.component"
+39-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:30:13-53
+40            android:exported="true" >
+40-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:31:13-36
+41            <intent-filter android:label="@string/app_name" >
+41-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:33:13-35:29
+41-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:33:28-60
+42                <action android:name="com.atakmap.app.component" />
+42-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:34:17-67
+42-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:34:25-65
+43            </intent-filter>
+44        </activity>
+45
+46        <!-- OPTIONAL: Your UI to control the sim -->
+47        <!-- <activity -->
+48        <!-- android:name=".SimControllerActivity" -->
+49        <!-- android:exported="true"> -->
+50        <!-- <intent-filter> -->
+51        <!-- <action android:name="android.intent.action.MAIN"/> -->
+52        <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+53        <!-- </intent-filter> -->
+54        <!-- </activity> -->
+55
+56
+57        <!-- OPTIONAL: Foreground service that sends CoT -->
+58        <service
+58-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:49:9-52:56
+59            android:name="com.atakmap.android.feature4boundaryalert.plugin.GpsSimService"
+59-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:50:13-42
+60            android:exported="true"
+60-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:51:13-36
+61            android:foregroundServiceType="dataSync" />
+61-->D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\AndroidManifest.xml:52:13-53
+62        <!-- <service -->
+63        <!-- android:name=".GpsSimService" -->
+64        <!-- android:exported="false" -->
+65        <!-- android:foregroundServiceType="dataSync"/> -->
+66    </application>
+67
+68</manifest> <!-- <manifest xmlns:android="http://schemas.android.com/apk/res/android" -->
+69<!-- xmlns:tools="http://schemas.android.com/tools" -->
+70<!-- tools:ignore="GoogleAppIndexingWarning"> -->
+71<!-- <application -->
+72<!-- android:allowBackup="false" -->
+73<!-- android:icon="@drawable/ic_launcher" -->
+74<!-- android:label="@string/app_name" -->
+75<!-- android:description="@string/app_desc" -->
+76<!-- android:theme="@style/AppTheme" > -->
+77<!-- <meta-data android:name="plugin-api" android:value="${atakApiVersion}"/> -->
+78<!-- <meta-data android:name="app_desc" android:value="@string/app_desc"/> -->
+79<!-- &lt;!&ndash; This fictitious activity entry allow for ATAK 4.6.0.2 and newer to perform -->
+80<!-- plugin discovery  android devices.  If this is removed, the plugin will -->
+81<!-- not be able to be discovered or loaded.  &ndash;&gt; -->
+82<!-- <activity android:name="com.atakmap.app.component" -->
+83<!-- android:exported="true" -->
+84<!-- tools:ignore="MissingClass"> -->
+85<!-- <intent-filter android:label="@string/app_name"> -->
+86<!-- <action android:name="com.atakmap.app.component" /> -->
+87<!-- </intent-filter> -->
+88<!-- </activity> -->
+89<!-- </application> -->
+90<!-- </manifest> -->

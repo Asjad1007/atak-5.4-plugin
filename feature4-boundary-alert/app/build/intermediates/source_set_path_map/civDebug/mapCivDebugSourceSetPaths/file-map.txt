@@ -1,0 +1,9 @@
+com.atakmap.android.feature4boundaryalert.plugin.app-debug-0 D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\build-types\debug\res
+com.atakmap.android.feature4boundaryalert.plugin.app-civ-1 D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\build\generated\res\pngs\civ\debug
+com.atakmap.android.feature4boundaryalert.plugin.app-civ-2 D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\build\generated\res\resValues\civ\debug
+com.atakmap.android.feature4boundaryalert.plugin.app-packageCivDebugResources-3 D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\build\intermediates\incremental\civDebug\packageCivDebugResources\merged.dir
+com.atakmap.android.feature4boundaryalert.plugin.app-packageCivDebugResources-4 D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\build\intermediates\incremental\civDebug\packageCivDebugResources\stripped.dir
+com.atakmap.android.feature4boundaryalert.plugin.app-civDebug-5 D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\build\intermediates\merged_res\civDebug\mergeCivDebugResources
+com.atakmap.android.feature4boundaryalert.plugin.app-civ-6 D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\civ\res
+com.atakmap.android.feature4boundaryalert.plugin.app-civDebug-7 D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\civDebug\res
+com.atakmap.android.feature4boundaryalert.plugin.app-main-8 D:\ATAK-CIV-5.4.0.27-SDK\samples\feature4-boundary-alert\app\src\main\res

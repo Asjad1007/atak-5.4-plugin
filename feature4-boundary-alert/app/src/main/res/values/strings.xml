@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Feature 4 Boundary Alert</string>
+    <!-- description -->
+    <string name="app_desc">Draw polygon regions and get alerts when simulated objects enter or exit boundaries</string>
+
+
+
+
+</resources>

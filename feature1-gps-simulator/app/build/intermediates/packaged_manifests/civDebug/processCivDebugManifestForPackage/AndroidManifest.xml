@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atakmap.android.feature1gpssimulator.plugin"
+    android:versionCode="1"
+    android:versionName="0.1 () - [5.4.0]" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="34" />
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- If your foreground service accesses location on newer Android versions, also add: -->
+    <!-- <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/> -->
+    <application
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:description="@string/app_desc"
+        android:extractNativeLibs="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- Tells ATAK which app API this plugin targets -->
+        <meta-data
+            android:name="plugin-api"
+            android:value="com.atakmap.app@5.4.0.CIV" />
+        <meta-data
+            android:name="app_desc"
+            android:value="@string/app_desc" />
+
+        <!-- REQUIRED: ATAK plugin discovery stub -->
+        <activity
+            android:name="com.atakmap.app.component"
+            android:exported="true" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="com.atakmap.app.component" />
+            </intent-filter>
+        </activity>
+
+        <!-- OPTIONAL: Your UI to control the sim -->
+        <!-- <activity -->
+        <!-- android:name=".SimControllerActivity" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN"/> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER"/> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+
+
+        <!-- OPTIONAL: Foreground service that sends CoT -->
+        <service
+            android:name="com.atakmap.android.feature1gpssimulator.plugin.GpsSimService"
+            android:exported="true"
+            android:foregroundServiceType="dataSync" />
+        <!-- <service -->
+        <!-- android:name=".GpsSimService" -->
+        <!-- android:exported="false" -->
+        <!-- android:foregroundServiceType="dataSync"/> -->
+    </application>
+
+</manifest> <!-- <manifest xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!-- xmlns:tools="http://schemas.android.com/tools" -->
+<!-- tools:ignore="GoogleAppIndexingWarning"> -->
+<!-- <application -->
+<!-- android:allowBackup="false" -->
+<!-- android:icon="@drawable/ic_launcher" -->
+<!-- android:label="@string/app_name" -->
+<!-- android:description="@string/app_desc" -->
+<!-- android:theme="@style/AppTheme" > -->
+<!-- <meta-data android:name="plugin-api" android:value="${atakApiVersion}"/> -->
+<!-- <meta-data android:name="app_desc" android:value="@string/app_desc"/> -->
+<!-- &lt;!&ndash; This fictitious activity entry allow for ATAK 4.6.0.2 and newer to perform -->
+<!-- plugin discovery  android devices.  If this is removed, the plugin will -->
+<!-- not be able to be discovered or loaded.  &ndash;&gt; -->
+<!-- <activity android:name="com.atakmap.app.component" -->
+<!-- android:exported="true" -->
+<!-- tools:ignore="MissingClass"> -->
+<!-- <intent-filter android:label="@string/app_name"> -->
+<!-- <action android:name="com.atakmap.app.component" /> -->
+<!-- </intent-filter> -->
+<!-- </activity> -->
+<!-- </application> -->
+<!-- </manifest> -->
