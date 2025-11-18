@@ -2,7 +2,7 @@
 
 **Developer**: Asjad Nirban  
 **Email**: asjad.nirban@gmail.com  
-**GitHub**: https://github.com/Asjad1007/atak-5.4-plugin
+**GitHub**: [https://github.com/Asjad1007/atak-5.4-plugin](https://github.com/Asjad1007/atak-5.4-plugin)
 
 ---
 
