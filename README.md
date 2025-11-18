@@ -54,7 +54,7 @@ ATAK-CIV-5.4.0.27-SDK/
 
 ⚠️ **Do NOT use ATAK from Google Play Store or Apple App Store** - it's an old version!
 
-**Download**: Get `ATAK-CIV-5.4.0.27.apk` from [[https://github.com/Asjad1007/atak-5.4-plugin](https://github.com/Asjad1007/atak-5.4-plugin/releases/tag/ATAK-apk)](https://github.com/Asjad1007/atak-5.4-plugin/releases/tag/ATAK-apk)
+**Download**: Get `ATAK-CIV-5.4.0.27.apk` from [https://github.com/Asjad1007/atak-5.4-plugin/releases/tag/ATAK-apk](https://github.com/Asjad1007/atak-5.4-plugin/releases/tag/ATAK-apk)
 
 #### **Install on Physical Device**
 
